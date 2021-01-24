@@ -1,0 +1,79 @@
+@import "theme-styles/variables";
+
+<<<<<<< HEAD
+
+/*------------- #RT-Media --------------*/
+
+.olympus-theme #buddypress {
+  margin: 30px 0;
+
+  div.dir-search input[type="text"] {
+	width: auto;
+  }
+
+  #whats-new-form {
+	margin: 20px 0;
+  }
+
+  .bp-navs ul li a,
+  ul.subnav a,
+  div.item-list-tabs ul li a,
+  .acomment-meta a,
+  .activity-header a,
+  .comment-meta a {
+	color: #515365;
+	color: var(--heading-font-color);
+
+	&:hover {
+	  color: #ff5e3a;
+	  color: var(--primary-accent-color);
+	}
+  }
+
+  div.dir-search {
+	margin: 0;
+  }
+
+  .member-header-actions {
+	padding-left: 0;
+  }
+
+  .member-header-actions a {
+	height: auto;
+  }
+
+  .bp-messages-content .thread-participants ul {
+	padding-left: 0;
+  }
+
+  #message-threads li {
+	padding: .5em;
+  }
+
+  .notifications-options-nav input#notification-bulk-manage {
+	line-height: 1;
+	margin-left: 15px;
+  }
+
+  button[data-bp-close] span::before {
+	font-size: 20px;
+  }
+
+  .buddypress-wrap .bp-feedback {
+	padding: 10px;
+  }
+
+  #bbp-reply-search-form div {
+	display: flex;
+  }
+
+  ul.rtmedia-album-list li.rtmedia-list-item {
+	width: 31%;
+	margin: 1%;
+  }
+}
+=======
+/*------------- #PLUGINS --------------*/
+
+@import "plugins/buddypress-customization.scss";
+>>>>>>> parent of f12a5e0a... deleted matchHeight (dps)

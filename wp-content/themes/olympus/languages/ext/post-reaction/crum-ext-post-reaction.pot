@@ -1,0 +1,2 @@
+msgid "Remove my %s reaction"
+msgstr ""

@@ -1,0 +1,134 @@
+@import "theme-styles/variables";
+
+
+/*------------- #LEARN PRESS CUSTOMIZATION --------------*/
+
+.olympus-theme {
+  .learn-press-breadcrumb {
+	a {
+	  color: $secondary-color;
+	}
+  }
+
+  ul.learn-press-nav-tabs .course-nav a {
+	color: $secondary-color;
+  }
+
+  ul.learn-press-nav-tabs {
+	border-bottom: 1px solid $border-color;
+  }
+
+  &.learnpress-page .lp-button {
+	background-color: #ff5e3a;
+	background-color: var(--primary-accent-color);
+	color: #fff;
+	border: none;
+	outline: none;
+	box-shadow: none;
+	padding: 0 3rem;
+	border-radius: 3px;
+  }
+
+  .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link {
+	color: $secondary-color;
+  }
+
+  .course-curriculum ul.curriculum-sections .section-content .course-item.item-locked .course-item-status::before {
+	color: #ff5e3a;
+	color: var(--primary-accent-color);
+  }
+
+  .lp-single-course .course-author .author-name a {
+	color: $secondary-color;
+  }
+
+  #learn-press-profile-header {
+	background-color: $blue;
+	background-color: var(--secondary-accent-color);
+	border-radius: 5px 5px 0 0;
+  }
+
+  #learn-press-profile-nav {
+	background-color: #f4f4f4;
+  }
+
+  #learn-press-profile-nav .tabs > li.active > a {
+	background-color: $blue;
+	background-color: var(--secondary-accent-color);
+	color: #fff;
+  }
+
+  #learn-press-profile-nav .tabs > li a,
+  #learn-press-profile-nav .tabs > li > a {
+	color: $secondary-color;
+  }
+
+  #learn-press-profile-nav .tabs > li a {
+	padding: 10px 20px;
+  }
+
+  #learn-press-profile-header .lp-profile-avatar img {
+	border-radius: 100%;
+  }
+
+  .lp-sub-menu {
+	padding-left: 0;
+  }
+
+  .profile-heading {
+	margin-bottom: 15px;
+  }
+
+  .lp-sub-menu li a {
+	color: #888da8;
+	color: var(--body-font-color);
+  }
+
+  .lp-sub-menu li span {
+	color: $secondary-color;
+  }
+
+  .lp-tab-sections .section-tab a {
+	color: #888da8;
+	color: var(--body-font-color);
+  }
+
+  .lp-tab-sections .section-tab span {
+	color: $secondary-color;
+  }
+
+  #lp-upload-photo {
+	background-color: $blue;
+	background-color: var(--secondary-accent-color);
+	color: #fff;
+	border: none;
+	outline: none;
+	box-shadow: none;
+	padding: .3rem 1rem;
+	border-radius: 3px;
+  }
+
+  .lp-list-table tbody tr td a,
+  .lp-list-table tbody tr th a {
+	color: $secondary-color;
+  }
+
+  .order-recover input[name="order-key"] {
+	padding: 14px 20px;
+  }
+
+  #course-item-content-header .course-title a,
+  .course-instructor a {
+	color: $secondary-color;
+  }
+
+  .quiz-result .result-statistic .result-statistic-field {
+	margin-bottom: 5px;
+	border-bottom: 1px solid $border-color;
+	padding-bottom: 5px;
+  }
+
+  body.course-item-popup #learn-press-course-curriculum .section-header .section-desc {
+	margin-bottom: 15px;
+  }
+}

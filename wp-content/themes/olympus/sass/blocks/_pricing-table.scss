@@ -1,0 +1,45 @@
+/*------------- #CRUMINA-PRICING-TABLE --------------*/
+
+
+.crumina-pricing-table {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  height: 100%;
+  background-color: $white-color;
+  box-shadow: 3px 10px 15px 30px rgba(0, 0, 0, 0.03), 3px 4px 6px 2px rgba(0, 0, 0, 0.03);
+
+  .btn {
+	margin-top: auto;
+	border: none;
+  }
+
+  &.current-price {
+    box-shadow: 3px 10px 15px 3px rgba(0, 0, 0, 0.1), 3px 4px 6px 2px rgba(0, 0, 0, 0.05);
+    transform: translateY(-10px);
+  }
+}
+
+.pricing-item-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pricing-item-price {
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.pricing-tables-position {
+  margin: 20px 0;
+}
+
+.animate-hover-top {
+  transition: all .3s ease;
+}
+
+.animate-hover-top:hover {
+  box-shadow: 3px 10px 15px 3px rgba(0, 0, 0, 0.1), 3px 4px 6px 2px rgba(0, 0, 0, 0.05);
+  transform: translateY(-10px);
+}

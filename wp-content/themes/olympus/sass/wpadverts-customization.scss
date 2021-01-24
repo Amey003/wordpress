@@ -1,0 +1,101 @@
+@import "theme-styles/variables";
+
+/*------------- #WPADVERTS CUSTOMIZATION --------------*/
+
+.olympus-theme {
+  .adverts-search .advert-input input[type="text"] {
+	border-radius: 0.25rem;
+	border: 1px solid $border-color;
+	padding: 1.1rem 1.1rem;
+  }
+
+  .adverts-options {
+	border: 1px solid $border-color;
+	border-bottom-color: $border-color;
+	border-bottom: 2px solid $border-color;
+	background-color: #fff;
+  }
+
+  .adverts-button-small {
+	padding: 0.5rem 1.7rem;
+	font-size: 0.875rem;
+	line-height: 1.5;
+	border-radius: 0.2rem;
+	background-color: $primary-color;
+	background-color: var(--primary-accent-color);
+	border: none;
+	color: #fff;
+	height: initial;
+  }
+
+  .advert-img {
+	margin-bottom: 20px;
+  }
+
+  .advert-price {
+	color: #fff;
+	border: none;
+	background-color: $primary-color;
+	background-color: var(--primary-accent-color);
+  }
+
+  .advert-item span.advert-link .advert-link-text {
+	color: #515365;
+	color: var(--heading-font-color);
+  }
+
+  .advert-item {
+	border: 1px solid $border-color;
+	border-radius: 5px;
+	overflow: hidden;
+  }
+
+  .adverts-price-box {
+	border-radius: 0.2rem;
+	background-color: $primary-color;
+	background-color: var(--primary-accent-color);
+  }
+
+  input[type="submit"].adverts-button,
+  .adverts-button,
+  .adverts-upload-actions a.button {
+	height: initial;
+	background-color: $primary-color;
+	background-color: var(--primary-accent-color);
+	padding: 0.5rem 1.7rem;
+	color: #fff !important;
+	border: none;
+
+	&:hover {
+	  border: none;
+	  color: #fff !important;
+	}
+  }
+
+  .adverts-contact-box a {
+	color: #515365;
+	color: var(--heading-font-color);
+
+	&:hover {
+	  color: $primary-color;
+	  color: var(--primary-accent-color);
+	}
+  }
+
+  .adverts-list {
+	border-radius: 5px;
+	padding: 20px;
+	background: #fff;
+  }
+
+  .adverts-widget-recent .adverts-widget-recent-title a,
+  .adverts-widget-recent .adverts-widget-recent-title a:visited {
+	color: #515365;
+	color: var(--heading-font-color);
+
+	&:hover {
+	  color: $primary-color;
+	  color: var(--primary-accent-color);
+	}
+  }
+}
